@@ -1,0 +1,12 @@
+# Data file
+data/
+!test/data/
+
+# Sample results
+result*/
+
+# Distribution
+dist/
+
+# Temporary files
+temp.mat

@@ -1,0 +1,131 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2846070826" file="C:\workspace\matlab\parafac_gene\PARAFACgene.prj" location="C:\workspace\matlab\parafac_gene" name="PARAFACgene" target="target.mlapps" target-name="Package App">
+    <param.appname>PARAFACgene</param.appname>
+    <param.authnamewatermark>Ce Gao</param.authnamewatermark>
+    <param.email>gaoce@coe.neu.edu</param.email>
+    <param.company>Northeastern University</param.company>
+    <param.icon>${PROJECT_ROOT}\PARAFACgene_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\PARAFACgene_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\PARAFACgene_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\PARAFACgene_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>A GUI to conduct PARAFAC.</param.summary>
+    <param.description>A GUI application for PARAFAC that can be installed in MATLAB.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Statistics and Machine Learning Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>'1'</item>
+      <item>'19'</item>
+    </param.products.id>
+    <param.products.version>
+      <item>8.5</item>
+      <item>10.0</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\dist\PARAFACgene.mlappinstall</param.output>
+    <param.guid>ee828ff0-86b8-42c4-8b35-91832611e170</param.guid>
+    <unset>
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\main.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\calcore.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\ckron.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\complpol.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\corcond.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\dtld.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\fac2let.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\fastnnls.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\fnipals.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\getindxn.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\gram.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\gsm.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\ini.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\inituck.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\krb.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\missmean.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\missmult.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\misssum.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\monreg.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\ncosine.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\neye.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\nident.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\nonneg.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\normit.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\nsetdiff.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\nshape.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\parafac.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\pfls.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\pfplot.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\stdnan.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\t3core.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\tucker.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\ulsr.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\lib\DOMFluor\nway\unimodal.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\src\exportComp.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\src\exportFacs.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\src\importData.m</file>
+      <file>C:\Users\Charlie\Documents\MATLAB\Apps\PARAFACgene\src\nmodel.m</file>
+      <file>${PROJECT_ROOT}\main.fig</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\dist" name="PARAFACgene.mlappinstall" optional="false">C:\workspace\matlab\parafac_gene\dist\PARAFACgene.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
